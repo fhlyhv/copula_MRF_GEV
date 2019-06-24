@@ -24,11 +24,7 @@ and likewise for Xtest, Ltttest, Lngtest, Gtest, Stest, and Ltest.
 If you use our code, please cite the following paper:
 
 @inproceedings{yu2012modeling, 
-
 title={Modeling extreme events in spatial domain by copula graphical models}, 
-
 author={Yu, Hang and Choo, Zheng and Uy, Wayne Isaac T and Dauwels, Justin and Jonathan, Philip}, 
-
 booktitle={2012 15th International Conference on Information Fusion}, pages={1761--1768}, year={2012}, 
-
 organization={IEEE} }
