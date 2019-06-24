@@ -37,10 +37,16 @@ if (nargin < 5)
 end
 
 
+
 % Verify that adjacency matrix and target covariance are consistent
 N = length(adjacency);
 if (N*dim ~= length(P))
   error('Parameter size mismatch');
+end
+
+[~,q] = chol(P);
+if q ~=0
+    P = P + 0.01*eye(N);
 end
 
 % Extract edge information from adjacency matrix
