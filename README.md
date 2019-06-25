@@ -1,5 +1,5 @@
 # copula_MRF_GEV
-spatial extreme-value models based on GEV marginals and Gaussian copulas with algorithms for interpolation
+MATLAB implementation of spatial extreme-value models based on GEV marginals and Gaussian copulas with algorithms for interpolation
 
 If the observed sites are located on a regular grid, please check the function main_regular_case.m in the folder regular for a toy example.
 
